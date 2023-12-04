@@ -14,13 +14,14 @@ public class DeliveryManager{
         System.out.println(lissabon);
         System.out.println(chicago);
         System.out.println(location);
+        System.out.println("===============================");
 
         Delivery one = Delivery.createDeliveryUsing(paris, kiew, 1000);
         Delivery two = Delivery.createDeliveryUsing(kiew, paris, 1000);
         Delivery three = Delivery.createDeliveryUsing(lissabon, chicago, 755.5);
 
         Delivery four = Delivery.createDeliveryUsing(chicago, kiew);
-        Delivery five = Delivery.createDeliveryUsing(paris, chicago);
+        Delivery five = Delivery.createDeliveryUsing(paris, location);
 
         System.out.println(one);
         System.out.println(two);
